@@ -4,6 +4,10 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
+
+.bg{
+    background-image: url(images/phoneback.webp);
+}
 html{
     scroll-behavior: smooth;
 }

@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Roboto Slab';
     box-sizing: border-box;
 }
 
@@ -33,12 +33,14 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: #262626;
 }
 
 .name{
-    font-size: 5px;
-    font-weight: 500;
-    font-family: 'Comic Sans MS';
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: #7900FF;
 }
 
 .logo{
@@ -80,15 +82,19 @@ nav ul li a:hover::after{
     margin-top: 20%;
     font-size: 30px;
 
+
 }
 
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    font-family: 'Roboto Slab';
+    
 }
 
 .header-text h1 span{
     color: #7900FF;
+    font-family: 'Roboto Slab';
 }
 
 /* -----------------About------------ */
@@ -116,7 +122,7 @@ nav ul li a:hover::after{
 
 }
 .sub-title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     color: #7900FF;
 

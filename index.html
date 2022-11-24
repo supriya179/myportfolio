@@ -11,21 +11,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab&display=swap" rel="stylesheet"></head>
 <body>
-    <div class="bg">
+    
     <div id="header">
         <div class="container">
-            <nav>
-                <span class="name">
+            <nav class="bar">
+                <span class="logo" >
                 SUPRIYA VERMA</span>
-                <img src="" class="logo">
+                
                 <ul id="sidemenu">
                     <li> <a href="#header">Home</a></li>
                     <li> <a href="#about">About</a></li>
-                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#skills">Skills</a></li>
                     <li> <a href="#portfolio">Portfolio</a></li>
                     <li> <a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark icon" onclick="closemenu()" ></i>
@@ -38,7 +43,7 @@
                 <p>
                     UI/UX Desghdjfng
                 </p>
-                <h1>knvdgg jerkb <span>fefefe</span><br> rhfbrh rberrr</h1>
+                <h2>knvdgg jerkb <span>fefefe</span><br> rhfbrh rberrr</h2>
             </div>
         </div>
     </div>
@@ -48,31 +53,31 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.jpeg">
+                    <img src="images/usre_low.png">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title"><ul>About Me</ul></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim, nisi iste, ea adipisci ex corporis sequi obcaecati incidunt laborum dolores minus eum quidem iusto omnis autem voluptas libero. Odio, consequuntur ducimus hic veritatis architecto nobis quidem sapiente maxime debitis neque, maiores minus minima iusto nulla impedit autem incidunt optio.</p>
                     <div class="tab-titles"> 
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents active-tab" id="education">
                         <ul>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf ifuwef</li>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf ifuwef</li>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf mnvdvv ifuwef</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="experience">
+                    <div class="tab-contents" id="certificates">
                         <ul>
                             <li><span>UI/UX</span><br>bfsdfw uufwiu vvdfjvef ifuwef</li>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf ifuwef</li>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf ifuwef</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="education">
+                    <div class="tab-contents" id="experience">
                         <ul>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf ifuwef</li>
                             <li><span>UI/UX</span><br>bfsdfw uufwiuf shfbskff ifuwef</li>
@@ -86,28 +91,56 @@
 
     <!-- -------------services---------- -->
 
-    <div id="services">
+    <div id="skills">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>web design</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, tenetur consectetur mollitia aliquam quia quis qui laborum aut</p>
-                    <a href="#" >learn more</a>
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div class="icons">
+                   <img src="images/c.png">
+                    <h2>C</h2>
                 </div>
-                <div>
-                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
-                    <h2>web design</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, tenetur consectetur mollitia aliquam quia quis qui laborum aut</p>
-                    <a href="#" >learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>web design</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, tenetur consectetur mollitia aliquam quia quis qui laborum aut</p>
-                    <a href="#" >learn more</a>
-                </div>
+                <div class="icons">
+                    <img src="images/cpp.png">
+                     <h2>C++</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/python.png">
+                     <h2>Python</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/js.png">
+                     <h2>JavaScript</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/html.png">
+                     <h2>HTML</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/css.png">
+                     <h2>CSS</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/git.png">
+                     <h2>Git</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/github.png">
+                     <h2>GitHub</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/mysql.png">
+                     <h2>SQL</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/c.png">
+                     <h2>Django</h2>
+                 </div>
+                 <div class="icons">
+                    <img src="images/c.png">
+                     <h2>JQuery</h2>
+                 </div>
+               
+                
 
             </div>
         </div>
@@ -177,7 +210,7 @@
             <p>Supriya Verma <i class="fa-solid fa-heart"></i> Portfolio</p>
         </div>
     </div>
-    </div>
+    
 </body>
 <script>
     var tablinks = document.getElementsByClassName("tab-links");

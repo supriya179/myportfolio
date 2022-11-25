@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -47,7 +48,7 @@ nav{
 .bar{
     width: 80%;
     height: 110px;
-    position:fixed;
+    position:absolute;
     background-color: #080808ca;
 }
 
@@ -162,6 +163,12 @@ nav ul li a:hover::after{
 
 .tab-contents ul li{
     list-style: none;
+    margin: 10px 0;
+
+}
+.tab-contents ul li a{
+    list-style: none;
+    text-decoration: none;
     margin: 10px 0;
 
 }
@@ -408,7 +415,7 @@ nav .icon{
     .logo{
         width: 140px;
         margin-top: 15px;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 700;
         font-family: 'Montserrat';
         color: #ff004f;
@@ -417,7 +424,7 @@ nav .icon{
     .bar{
         width: 80%;
         height: 170px;
-        position: fixed;
+        position: absolute;
         background-color: #080808ca;
     }
     .header-text{
